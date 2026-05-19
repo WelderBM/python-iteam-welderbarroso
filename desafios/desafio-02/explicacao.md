@@ -1,13 +1,13 @@
 # Explicação — Desafio 02 — Calculadora de IMC
 
-**Aluno:** _(seu nome)_
-**Data:** _(data)_
+**Aluno:** _(welder)_
+**Data:** _(19-05-2026)_
 
 ---
 
 ## O que meu programa faz
 
-_(Descreva em suas palavras o que cada parte do código faz.)_
+_(o código recebe o valor do nome da pessoa inicialmente. logo em seguida são pedidos dois inputs, peso e altura. o objetivo é fazer o calculo do IMC que é dado pela razão entre o peso e o quadrado da altura.)_
 
 ---
 
