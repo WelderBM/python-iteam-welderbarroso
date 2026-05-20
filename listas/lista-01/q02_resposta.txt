@@ -17,5 +17,10 @@ Responda por raciocínio ANTES de executar. Depois confirme no REPL.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+  print(type(10 / 2))         # tipo: int   valor: int
+  print(type(10 // 2))        # tipo: int   valor: int
+  print(int(3.9))             # tipo: int   valor: 3
+  print(bool([]))             # tipo: bool   valor: false
+  print(bool("False"))        # tipo: bool   valor: true
+  print(str(True) == "True")  # tipo: bool   valor: true
 
