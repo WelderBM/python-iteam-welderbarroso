@@ -1,6 +1,6 @@
 Lista 01 — Questão 01: Modelo de Memória
-Aluno: (seu nome)
-Data:  (data)
+Aluno: (Welder Barroso de Melo)
+Data:  (20-05-2026)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
@@ -19,5 +19,9 @@ Código:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+A linha 1, o array será definido com 3 números para A.
+logo abaixo o B será determinado com o mesmo endereço de memória que o A.
+Assim que o B receber um append, A também receberá.
+C é uma cópia dos valores de A; como A receber o append que b também recebeu, C já terá o número adicionado em B.
+O append em C na última linha afetará apenas o C, pois seu meio de criação foi por meio do copy.
 
