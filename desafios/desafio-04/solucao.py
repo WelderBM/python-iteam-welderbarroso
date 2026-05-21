@@ -4,9 +4,8 @@
 
 # ── Escreva sua solução abaixo ──────────────────────────────────────────────
 print("me diga um número de 1 a 10 que te direi a tabuada dele")
-input_numero = -1
-count = 0
-while ( count == 0):
+stop = 0
+while ( stop == 0):
     try:        
         input_numero = int(input())
         if (input_numero < 0 or input_numero > 10):
@@ -18,7 +17,7 @@ while ( count == 0):
                     num+=1
                 print("digite mais um número ou digite 0 para sair.")
         else:
-            count+= 1
+            stop = 1
     except ValueError:
         print("deve ser um número inteiro entre 1 e 10. Tente novamente. Digite 0 para sair")
 print("programa finalizado")
