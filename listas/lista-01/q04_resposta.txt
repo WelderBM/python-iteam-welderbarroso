@@ -1,6 +1,6 @@
 Lista 01 — Questão 04: Rastreamento de Loop
-Aluno: (seu nome)
-Data:  (data)
+Aluno: (Welder Barroso de Melo)
+Data:  (24-05-2026)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
@@ -17,5 +17,12 @@ Qual é o valor final de total? O que o código calcula?
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+o total começa no zero e dai o for vai rodar de 1 ate 5
+quando o i é 1 que é impar ele soma no total que vira 1
+depois quando o i é 2 que é par passa direto sem mexer em nada e fica 1
+no i sendo 3 que é impar soma de novo ai o total vai pra 4
+quando o i é 4 que é par passa batido tambem e continua no 4
+e por fim no i sendo 5 que é impar soma com o 4 e vira 9
+no final de tudo o total termina com o valor 9 e esse codigo serve pra somar os numeros impares que estao no range de 1 a 5
+
 
