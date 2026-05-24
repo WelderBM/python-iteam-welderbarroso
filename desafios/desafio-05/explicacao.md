@@ -7,7 +7,7 @@
 
 ## O que meu programa faz
 
-_(Descreva em suas palavras o que cada parte do código faz.)_
+_(o programa inicia uma lista vazia. enquanto a o usuário digitar algo que diferente de "fim" e execução continua recebendo produtos digitados e adiciona a lista iniciada em nenhum produto. após ser digitado fim, um for organiza a lista final e depois há uma leitura da quantidade de itens usando len)_
 
 ---
 
@@ -15,10 +15,10 @@ _(Descreva em suas palavras o que cada parte do código faz.)_
 
 > Por que usamos uma **lista** e não uma **tupla** para essa lista de compras? O que mudaria no comportamento do programa se tentássemos usar tupla?
 
-_(Sua resposta aqui — use suas próprias palavras.)_
+_(Tupla é como uma lista que nasceu teimosa porque depois que você cria ela não deixa mais adicionar nem reorganizar nada e se você tentar forçar o programa trava ou fica recriando tudo do zero toda vez que você mexe nela.)_
 
 ---
 
 ## Dificuldades encontradas
 
-_(Opcional: o que foi difícil? O que você pesquisou para resolver?)_
+_(none)_
