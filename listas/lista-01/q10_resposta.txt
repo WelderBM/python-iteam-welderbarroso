@@ -1,6 +1,6 @@
 Lista 01 — Questão 10: Análise Crítica de Código
-Aluno: (seu nome)
-Data:  (data)
+Aluno: (Welder Barroso de Melo)
+Data:  (24-05-2026)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
@@ -19,5 +19,12 @@ Dica: há um problema em: (1) definição da função, (2) como o loop é escrit
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+os tres erros que estao no codigo sao esses
+
+o primeiro é colocar alunos=[] como parametro padrao da funcao porque lista no python é mutavel entao se rodar a funcao varias vezes ela vai ficar compartilhando a mesma lista na memoria e se mexer nela vai dar ruim misturando dados de chamadas passadas o certo é usar None e tratar depois
+
+o segundo é fazer o loop usando range len alunos pra passar pelos indices que é um jeito meio feio e que nao precisa no python ja que a gente pode percorrer os objetos da lista direto fazendo for aluno in alunos que fica mais facil e limpo
+
+o terceiro é fazer aprovados = aprovados + [nome] porque isso fica criando uma lista nova na memoria e concatenando toda vez que passa no loop deixando o programa muito lento o melhor é usar o append ou list comprehension de uma vez
+
 
