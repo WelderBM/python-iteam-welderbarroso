@@ -1,6 +1,6 @@
 Lista 01 — Questão 09: EAFP vs LBYL
-Aluno: (seu nome)
-Data:  (data)
+Aluno: (Welder Barroso de Melo)
+Data:  (24-05-2026)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
@@ -17,5 +17,7 @@ Em q09_resposta.txt: explique o que significa EAFP e qual versão é mais Pythô
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+eafp é uma sigla em ingles que significa que é mais facil pedir desculpas do que permissao entao a gente joga o codigo direto pra rodar num bloco try e se der algum erro o except resolve em vez de ficar botando um monte de if antes pra testar se vai dar certo
+a versao eafp é considerada mais pythonica porque o python ja foi feito pensando em tratar erros desse jeito e tambem deixa o codigo muito mais limpo de ler sem aquele monte de validacoes chatas
+
 
