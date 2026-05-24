@@ -11,10 +11,8 @@ while ( stop == 0):
         if (input_numero < 0 or input_numero > 10):
             raise ValueError("o número deve ser entre 1 e 10")
         elif(input_numero != 0):
-                num = 1
-                while (num <= 10):
-                    print(f"{num} * {input_numero} é igual a {num * input_numero}")
-                    num+=1
+                for i in range(1, 11):
+                    print(f"{i} * {input_numero} é igual a {i * input_numero}")
                 print("digite mais um número ou digite 0 para sair.")
         else:
             stop = 1
