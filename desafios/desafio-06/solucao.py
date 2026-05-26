@@ -1,6 +1,6 @@
 # Desafio 06 — Bio-Cadastro
-# Aluno: (seu nome aqui)
-# Data:  (data de entrega)
+# Aluno: (welder barroso de melo)
+# Data:  (26-05-2026)
 
 # ── Escreva sua solução abaixo ──────────────────────────────────────────────
 print("adicione colaboradores na lista.")
