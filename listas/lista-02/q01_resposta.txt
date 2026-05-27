@@ -1,6 +1,6 @@
 Lista 02 — Questão 01: Rastreamento — Lista e Dicionário
-Aluno: (seu nome)
-Data:  (data)
+Aluno: welder barroso de melo)
+Data:  (27-05-2026)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
@@ -15,7 +15,18 @@ Depois execute e confirme.
   # Qual é o valor de: dados, media, chaves?
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-SUA RESPOSTA:
+SUA RESPOSTA: 
 
-(escreva aqui com suas próprias palavras)
+# ANTES
+1- dados é um dicionário com uma chave chamada nome com valor de Ana e notas com valores 8, 7.5 e 9.
+2- a segunda linha adiciona a nota 6.5 às notas.
+3- a terceira linha calcula a média pela soma das 4 notas e a divisão da quantidade, 4. o resultado é 7.75.
+4- na linha quatro a média é adicionada como chave do dicionário já existente, sendo atribuída o valor calculado na linha anterior.
+5- essa linha cria uma lista com os nomes das chaves do dicionário dados
 
+dados: {"nome": "Ana", "notas": [8.0, 7.5, 9.0, 6.5], "media": 7.75}
+media: 7.75
+chaves: ["nome", "notas", "media"]
+
+# DEPOIS
+  "100% CORRETO"
