@@ -1,14 +1,20 @@
 # Projeto Integrador — Urna Eletrônica
 
-O enunciado completo está no arquivo `projeto-integrador-urna.pdf` disponibilizado pelo professor.
+## Identificação
 
-## Estrutura esperada
+| Campo | Preenchimento |
+|---|---|
+| **Nome** | welder barroso de melo |
+| **Turma** | Vespertino 2026 |
 
-Coloque seus arquivos `.py` nesta pasta. Recomendado:
-- `urna_eletronica.py` — código principal
-- `candidatos.py` — classes de candidatos (se usar módulos separados)
-- `relatorio.py` — geração de relatório (se separado)
+## Descrição
 
-## Prazo
+o programa simula uma urna eletronica. da pra cadastrar candidatos com numero e nome, depois abrir a votação onde cada pessoa digita o numero do candidato. tambem tem voto em branco (digita 0) e voto nulo (quando digita um numero que nao existe). no final da pra apurar o resultado e ver quem ganhou com a porcentagem dos votos
 
-Entrega ao final da Aula 10, antes da prova final.
+## Como executar
+
+abre o terminal na pasta projeto-integrador e roda:
+```
+python urna_eletronica.py
+```
+vai abrir um menu com as opções. primeiro cadastra os candidatos (opção 1), depois vota (opção 3) e no final apura (opção 4)
