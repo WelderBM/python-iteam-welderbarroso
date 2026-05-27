@@ -7,7 +7,7 @@
 
 ## O que meu programa faz
 
-_(Descreva em suas palavras o que cada parte do código faz.)_
+_(o sistema está divido em 2 arquivos, um principal e outro de funções matemáticas. o arquivo principál funciona como mediador de qual função matemática o usuário quer calcular. ele continuará fazendo calculos enquanto ele não digitar 4)_
 
 ---
 
@@ -15,10 +15,10 @@ _(Descreva em suas palavras o que cada parte do código faz.)_
 
 > Por que separar as funções em um arquivo diferente do `solucao.py`? O que muda no projeto quando você tem 50 funções em vez de 3?
 
-_(Sua resposta aqui — use suas próprias palavras.)_
+_(o sistema fica mais organizado, pois não mistura responsabilidades de calculos com decisões. Se o projeto tivesse 5o funções, com certeza o código ficaria muito maior; então, dividir responsabilidade é o ideal.)_
 
 ---
 
 ## Dificuldades encontradas
 
-_(Opcional: o que foi difícil? O que você pesquisou para resolver?)_
+_(pesquisei como modularizar)_
