@@ -14,5 +14,9 @@ Para cada cenário, indique a estrutura mais adequada (list/tuple/dict/set) e ju
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+  a) Tuplas porque a coordenada de um local não muda
+  b) Set porque esse tipo de armazenamento não permite duplicação
+  c) dicionário para cada chave ter um valor
+  d) lista, pois pode mudar
+  e) set que guarda valores únicos
 
