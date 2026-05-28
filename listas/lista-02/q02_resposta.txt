@@ -18,5 +18,6 @@ SUA RESPOSTA:
   b) Set porque esse tipo de armazenamento não permite duplicação
   c) dicionário para cada chave ter um valor
   d) lista, pois pode mudar
-  e) set que guarda valores únicos
+  e) tupla porque é imutavel e no python chave de dicionario nao pode ser set que é mutavel
+
 
