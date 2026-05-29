@@ -1,6 +1,6 @@
 Lista 02 — Questão 05: Funções de Alta Ordem
-Aluno: (seu nome)
-Data:  (data)
+Aluno: welder barroso de melo
+Data:  29-05-2026
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
@@ -15,5 +15,4 @@ Em q05_resposta.txt: explique o que significa dizer que funções são
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
-
+funcoes serem cidadas de primeira classe em python significa que elas podem ser tratadas como qualquer outro valor tipo um numero ou uma string. da pra guardar uma funcao dentro de uma variavel, passar ela como argumento pra outra funcao e ate retornar ela de dentro de outra funcao. é por isso que a funcao aplicar() consegue receber outra funcao como parametro e usar ela normalmente dentro do for. a diferença do map() pro aplicar() que eu fiz é que o map ja vem pronto no python e retorna um objeto map que precisa converter pra lista usando list() enquanto o meu aplicar ja retorna a lista direto
