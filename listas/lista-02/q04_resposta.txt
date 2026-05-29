@@ -1,6 +1,6 @@
 Lista 02 — Questão 04: Escopo — LEGB
-Aluno: (seu nome)
-Data:  (data)
+Aluno: welder barroso de melo
+Data:  29-05-2026
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
@@ -22,5 +22,10 @@ Explique a regra de escopo (LEGB) que determina cada resultado.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+a) imprime "enclosing" porque a funcao interna nao tem x definido nela entao ela vai procurar no escopo de fora que é a funcao externa onde x vale "enclosing"
 
+b) imprime "enclosing" tambem porque dentro da funcao externa o x foi definido como "enclosing" e o print ta dentro dessa mesma funcao
+
+c) imprime "global" porque fora de tudo o x que vale é o que foi definido la no comeco do codigo que é o global
+
+a regra LEGB significa Local Enclosing Global Built-in e é a ordem que o python segue pra procurar uma variavel. primeiro ele olha no local que é dentro da funcao atual depois no enclosing que é a funcao de fora se tiver uma depois no global que é o escopo do arquivo inteiro e por ultimo no built-in que sao as coisas que ja vem prontas no python tipo print e len
