@@ -1,6 +1,6 @@
 Lista 02 — Questão 09: Encapsulamento e Propriedades
-Aluno: (seu nome)
-Data:  (data)
+Aluno: welder barroso de melo
+Data:  29-05-2026
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
@@ -15,5 +15,8 @@ Em q09_resposta.txt: explique a diferença entre _atributo e __atributo em Pytho
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+_atributo com um underline so é uma convenção que os programadores usam pra dizer que aquele atributo é pra uso interno da classe tipo um aviso de "nao mexa nisso de fora" mas na pratica nada impede de acessar ele normalmente
 
+__atributo com dois underlines ja é diferente porque o python faz o que chamam de name mangling que basicamente renomeia o atributo por baixo dos panos pra _NomeDaClasse__atributo entao se voce tentar acessar de fora usando objeto.__atributo vai dar AttributeError. ele nao fica totalmente privado porque ainda da pra acessar pelo nome completo com o mangling mas dificulta bastante
+
+no dia a dia o _atributo é mais usado porque é mais simples e a maioria dos projetos segue a convencao de nao mexer. o __atributo é pra quando voce realmente quer proteger o atributo de ser sobrescrito por uma classe filha sem querer
