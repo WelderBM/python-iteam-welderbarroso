@@ -1,6 +1,6 @@
 Lista 02 — Questão 07: Interpretação de Classe
-Aluno: (seu nome)
-Data:  (data)
+Aluno: welder barroso de melo
+Data:  29-05-2026
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
@@ -12,5 +12,10 @@ Leia a classe ContaBancaria do enunciado e responda SEM executar:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+a) self.saldo é o saldo que pertence aquele objeto especifico da classe. se usasse variavel local o saldo ia morrer toda vez que o metodo terminasse de rodar e nao ia guardar o valor pra proxima vez que chamar outro metodo. o self faz com que o saldo fique salvo no objeto e qualquer metodo da classe consiga acessar e mexer nele
 
+b) se chamar sacar(2000) com saldo de 500 o metodo vai ver que 2000 é maior que 500 e vai recusar o saque mostrando uma mensagem tipo "saldo insuficiente" e o saldo continua 500 sem mudar nada
+
+c) ficaria assim:
+def __str__(self):
+    return f"Conta {self.numero} | Titular: {self.titular} | Saldo: R$ {self.saldo:.2f}"
